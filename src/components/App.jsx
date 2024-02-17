@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Editor from "./Editor";
-
+import "./App.css";
 function App() {
      const [html, setHtml] = useState("");
      const [css, setCss] = useState("");
