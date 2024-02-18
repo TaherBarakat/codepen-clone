@@ -36,6 +36,17 @@ body {
      height: 100% !important;
 }
 
-.collapsed {
+.editor-container.collapsed {
      flex-grow: 0;
+}
+.editor-container.collapsed .CodeMirror-scroll {
+     position: absolute;
+     overflow: hidden !important;
+}
+.expand-collapse-btn {
+     margin-left: 0.5rem;
+     border: none;
+     background: none;
+     color: wheat;
+     cursor: pointer;
 }
